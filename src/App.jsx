@@ -213,10 +213,6 @@ export default function App() {
             ))}
           </main>
 
-          <footer className="text-center py-8 bg-gray-800 text-white mt-16">
-            <p>&copy; {new Date().getFullYear()} Prajot Patil. All Rights Reserved.</p>
-            <p className="text-gray-400 text-sm mt-1">Built with React & Tailwind CSS</p>
-          </footer>
         </div>
       )}
     </>
