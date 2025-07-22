@@ -2,9 +2,6 @@ import React, { useState, useEffect } from 'react';
 import { useInView } from 'react-intersection-observer';
 import { Github, ExternalLink } from 'lucide-react';
 
-// --- Helper Styles ---
-// I've included the CSS directly here for simplicity.
-// In a larger project, you would keep these in separate .css files.
 const styles = `
   /* Flash Screen Animations */
   @keyframes fade-in-out {
